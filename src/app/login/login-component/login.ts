@@ -35,6 +35,6 @@ export class LoginComponent implements OnInit {
         this.loginService.signInWithGoogle().then(res => {
             localStorage.setItem('user', JSON.stringify(res.user));
             this.router.navigate(['/home']);
-        }).catch(() => { this.loginFailed = true });
+        });
     }
 }

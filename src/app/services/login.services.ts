@@ -17,7 +17,7 @@ export class LoginService {
     } 
 
     public signOut(): void {
-        this.fireBaseAuth.auth.signOut()
+        this.fireBaseAuth.auth.signOut();
         localStorage.removeItem('user');
     }
 }
