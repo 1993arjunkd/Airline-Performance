@@ -1,0 +1,18 @@
+<section>
+    <div class="panel">
+        <h2>Airline Performance</h2>
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">
+              Welcome {{ displayName }}!
+            </button>
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+            <div class="dropdown-menu">
+              <a *ngIf="isHome" class="dropdown-item" (click)="navToProfile()">Profile</a>
+              <a *ngIf="!isHome" class="dropdown-item" (click)="navToHome()">Home</a>
+              <a class="dropdown-item" (click)="logOut()">Logout</a>
+            </div>
+          </div>
+    </div>
+</section>

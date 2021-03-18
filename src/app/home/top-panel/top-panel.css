@@ -1,0 +1,10 @@
+section {
+    background: black;
+    color: white;
+    padding: 32px;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+}

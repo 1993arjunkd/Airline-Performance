@@ -1,0 +1,22 @@
+<!-- <input type="text" placeholder="Email ID" [(ngModel)]="email">
+<input type="text" placeholder="Password" [(ngModel)]="password">
+<button (click)="login()">Login</button>
+<button (click)="googleLogin()">Login using google</button>
+<span *ngIf="loginFailed">Wrong Email or Password</span> -->
+<section>
+    <div class="login-panel">
+        <h3>Login</h3>
+        <input type="text" class="form-control box-style" placeholder="Email ID" [(ngModel)]="email">
+        <input type="text" class="form-control box-style" placeholder="Password" [(ngModel)]="password">
+        <div *ngIf="loginFailed" class="error">Wrong Email or Password</div>
+        <button class="btn btn-outline-dark box-style" (click)="login()">Submit</button>
+        <div class="separator">OR</div>
+        <button class="btn btn-outline-dark" (click)="googleLogin()" style="text-transform:none">
+            <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+            Login with Google
+        </button>
+
+        <!-- <button class="btn btn-primary" (click)="googleLogin()">Login using google</button> -->
+    </div>
+</section>

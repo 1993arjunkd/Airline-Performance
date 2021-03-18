@@ -1,0 +1,18 @@
+section {
+    text-align:center;
+}
+
+.profile-panel {
+    border:1px solid;
+    width: 300px;
+    margin: auto;
+    margin-top: 36px;
+    padding: 32px;
+    box-shadow: 4px 2px 2px 0 rgb(42 44 44 / 20%), 0px 1px 3px 3px rgb(42 44 44 / 20%);
+}
+
+.image {
+    margin: 8px;
+    border-radius: 50px;
+    height: 54px;
+}

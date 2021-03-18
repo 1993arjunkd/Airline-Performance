@@ -1,0 +1,11 @@
+<section>
+    <top-panel></top-panel>
+    <div class="home-container">
+        <div *ngFor="let data of analyticsData"  class="panel">
+            <div class="label">{{ data.label}}</div>
+            <div class="value">{{ data.value }}</div>
+        </div>
+    </div>
+    <chat-modal></chat-modal>
+</section>
+

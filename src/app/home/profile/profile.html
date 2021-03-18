@@ -1,0 +1,13 @@
+<section>
+    <top-panel></top-panel>
+    <div class="profile-panel">
+        <img class="image" [src]="profileDetails.imgUrl">
+        <h3>{{ profileDetails.name }}</h3>
+        <div>Email: {{profileDetails.email}}</div>
+        <div *ngIf = "profileDetails && profileDetails.role">Role: {{profileDetails.role}}</div>
+        <div *ngIf = "profileDetails && profileDetails.location">Location: {{profileDetails.location}}</div>
+        <div *ngIf = "profileDetails && profileDetails.empId">Employee Id: {{profileDetails.empId}}</div>
+    </div>
+    <chat-modal></chat-modal>
+</section>
+

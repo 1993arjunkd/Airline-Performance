@@ -1,0 +1,29 @@
+.message-container {
+    height:300px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 0 8px;
+    margin:12px 8px;
+    width: fit-content;
+    border-radius: 15px;
+    color: white;
+}
+
+.user-message {
+    background: #2700ff;
+    float: right;
+}
+
+.bot-message {
+    background-color: #355414c4;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
