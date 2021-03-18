@@ -8,11 +8,9 @@ Sample profile screen
 Chatbot integration
 
 # Login Credentials
-1. email Id: john.jacob@gmail.com
-   password: password
+1. email Id: john.jacob@gmail.com           Password: password
 
-2. email Id: divya.shankar@gmail.com
-   password: password
+2. email Id: divya.shankar@gmail.com        Password: password
 
 You can alternatively login using your own google account.
 
