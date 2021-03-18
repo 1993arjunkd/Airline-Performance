@@ -2,10 +2,10 @@
 This project is a sample analytics dashboard used only as POC. 
 
 # Features Included
-User authentication using firebase
-Sample Analytics dashboard
-Sample profile screen
-Chatbot integration
+1. User authentication using firebase
+2. Sample Analytics dashboard
+3. Sample profile screen
+4. Chatbot integration
 
 # Login Credentials
 1. email Id: john.jacob@gmail.com           Password: password
